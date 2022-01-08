@@ -1,6 +1,5 @@
 import Vue from 'vue';
 import App from './App.vue';
-import VueAnalytics from 'vue-analytics';
 import router from './router';
 import store from './store';
 import i18n from '@/locale';
@@ -27,7 +26,6 @@ console.log(
   'background: #eaeffd;color:#335eea;padding: 4px 6px;border-radius:3px;',
   'background:unset;color:unset;'
 );
-
 
 Vue.config.productionTip = false;
 
