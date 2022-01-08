@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import App from './App.vue';
+import VueAnalytics from 'vue-analytics';
 import router from './router';
 import store from './store';
 import i18n from '@/locale';
